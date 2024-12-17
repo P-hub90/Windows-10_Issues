@@ -1,0 +1,34 @@
+# Issue 3: Inventory Management Software Crashes
+
+## Problem:
+The inventory management software, which is essential for Sarah's bakery business, crashes intermittently. Sarah reports that the crashes happen most often when she tries to generate reports.
+
+## Potential Causes:
+- **Software Compatibility**: The software may not be fully compatible with the latest Windows 10 update.
+- **Corrupted Software Files**: Files within the software might have become corrupted, causing instability.
+- **Insufficient System Resources**: The system may not have enough memory or processing power to handle large reports, leading to crashes.
+- **Outdated Software or Drivers**: If the software or any associated drivers are outdated, it could cause compatibility issues.
+- **Interference from Background Processes**: Other applications running in the background might be consuming too many resources, affecting the inventory software.
+
+## Tests/Questions:
+1. **Check Software Logs:**
+   - Ask if there are any specific error messages or logs when the software crashes.
+   - Suggest checking the **Event Viewer** (search for "Event Viewer" in Windows) for any critical errors related to the software or system during the time of the crash.
+2. **Check System Resources:**
+   - Suggest monitoring CPU and RAM usage while generating reports using **Task Manager** (`Ctrl + Shift + Esc`) to check for any resource bottlenecks.
+3. **Reproduce the Issue:**
+   - Ask Sarah to try and reproduce the issue consistently, e.g., by generating the same report multiple times, to check if it occurs under specific circumstances.
+4. **Software Compatibility:**
+   - Check if the software is running in **compatibility mode** (right-click the software’s shortcut > Properties > Compatibility).
+   - Verify that the software is updated to the latest version, and if not, check the software's website for updates.
+5. **System Check:**
+   - Suggest running **System File Checker (sfc /scannow)** to ensure no system file corruption is contributing to the issue.
+6. **Test with Different Reports:**
+   - Ask Sarah to try generating other types of reports to see if the crash happens with all reports or just specific ones.
+
+## Suggested Fixes:
+- **Reinstall Software**: If the software is corrupted, reinstall it to restore missing or damaged files.
+- **Update the Software**: Ensure that both the software and any related drivers are up to date.
+- **Increase System Resources**: If memory or CPU usage is high, suggest closing other applications to free up resources when generating reports. Consider upgrading hardware if resources are consistently low.
+- **Run in Compatibility Mode**: If the software is not fully compatible with the latest Windows 10 version, run it in compatibility mode for an older version of Windows (e.g., Windows 7 or 8).
+- **Run System File Checker**: Repair any corrupted system files using the **sfc /scannow** command.
